@@ -37,8 +37,9 @@ img{
     border: 2px solid white;
 }
 a{
-    text-decoration: dotted;
+    text-decoration: none;
     color: green;
+    display: block;
 }
 .project a:hover{
     color: white;
@@ -48,8 +49,8 @@ a{
     margin: 15px;
 }
 p{
-    text-align: center; font-family: 'Times New Roman';
-}
-#mission{
     text-align: center;
+    font-family: 'Times New Roman';
+    margin: 15px;
 }
+
