@@ -3,13 +3,19 @@ body{
 } 
 h1{
     text-align: center;
+    color: green;
 }
-h2{
-    text-align: center;
+h1:hover{
+    text-decoration:underline overline;
+    text-underline-offset: 5px;
 }
 h3{
     text-align: left;
     font-style: italic;
+}
+.projects{
+    display:flex;
+    font-style:italic;
 }
 p{
     text-align: center; font-family: 'Times New Roman';
