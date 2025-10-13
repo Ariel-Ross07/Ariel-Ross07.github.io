@@ -36,9 +36,11 @@ img{
 .project img:hover{
     border: 2px solid white;
 }
-.project a{
+.projct a{
     text-decoration: none;
     color: green;
+    display: block;
+    margin: auto;
 
 }
 .project a:hover{
