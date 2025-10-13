@@ -3,11 +3,12 @@ body{
 } 
 h1{
     text-align: center;
-    color: green;
+    color: #87d49c;
 }
 h1:hover{
     text-decoration:underline overline;
     text-underline-offset: 5px;
+    color: green;
 }
 h3{
     text-align: left;
@@ -16,6 +17,13 @@ h3{
 .projects{
     display:flex;
     font-style:italic;
+}
+.project{
+    width:30%;
+    margin: 10px;
+    padding: 20px 10px;
+    background: #87d49c;
+    border-radius: 25%
 }
 p{
     text-align: center; font-family: 'Times New Roman';
