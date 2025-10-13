@@ -8,7 +8,7 @@ h2{
     text-align: center;
 }
 h3{
-    text-align: center;
+    text-align: right;
 }
 p{
     text-align: center; font-family: 'Times New Roman';
@@ -19,10 +19,10 @@ p{
 img{
     height: 450px;
     width: 300px;
-    border-width:10px;
+    border: width 10px;
     border-color: green;
-    border-top-left-radius: 45%;
-    border-top-right-radius: 45%;
-    border-bottom-left-radius: 45%;
-    border-bottom-right-radius: 45%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
 }
