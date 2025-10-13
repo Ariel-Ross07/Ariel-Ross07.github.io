@@ -48,9 +48,16 @@ a{
     text-align: center;
     margin: 15px;
 }
-p{
-    text-align: center;
-    font-family: 'Times New Roman';
-    margin: 15px;
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
 }
-
+.about p{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    line-height: 125%
+}
