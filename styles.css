@@ -25,12 +25,6 @@ h3{
     background: #87d49c;
     border-radius: 25%
 }
-p{
-    text-align: center; font-family: 'Times New Roman';
-}
-#mission{
-    text-align: center;
-}
 img{
     height: 300px;
     width: 300px;
@@ -42,10 +36,20 @@ img{
 .project img:hover{
     border: 2px solid white;
 }
+a{
+    text-decoration: dotted;
+    color: green;
+}
+.project a:hover{
+    color: white;
+}
 .project p{
     text-align: center;
     margin: 15px;
 }
-.project a:hover{
-    color: white;
+p{
+    text-align: center; font-family: 'Times New Roman';
+}
+#mission{
+    text-align: center;
 }
