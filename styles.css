@@ -20,14 +20,17 @@ p{
 .progect img{
     height: 300px;
     width: 300px;
-    border: 2px solid;
-    padding-left: 20px green;
+    border: 2px solid green;
     display: block;
     margin: auto;
 }
 .project img:hover{
     border: 2px solid white;
 }
-.ProblemStatment{
-    display: block;
+.project p{
+    text-align: center;
+    margin: 15px;
+}
+.project a:hover{
+    color: white;
 }
