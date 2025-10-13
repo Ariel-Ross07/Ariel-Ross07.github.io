@@ -36,10 +36,10 @@ img{
 .project img:hover{
     border: 2px solid white;
 }
-a{
+.project a{
     text-decoration: none;
     color: green;
-    margin: auto;
+
 }
 .project a:hover{
     color: white;
