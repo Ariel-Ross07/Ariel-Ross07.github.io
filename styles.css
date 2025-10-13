@@ -55,6 +55,12 @@ a{
     margin-left: 100px;
     justify-content: center;
 }
+.about img{
+    width: 150px;
+    height: 200px;
+    border-radius: 25%;
+    border: 2px solid green;
+}
 .about p{
     width: 50%;
     text-align: center;
