@@ -13,3 +13,8 @@ p{
 #mission{
     text-align: center;
 }
+img{
+    height: 200px; 
+    width: 100px;
+    text-align: center;
+}
