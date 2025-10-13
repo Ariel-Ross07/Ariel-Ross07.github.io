@@ -39,7 +39,7 @@ img{
 a{
     text-decoration: none;
     color: green;
-    display: block;
+    margin: auto;
 }
 .project a:hover{
     color: white;
@@ -60,4 +60,21 @@ a{
     text-align: center;
     margin: auto;
     line-height: 125%
+}
+.skills{
+    margin: 40px;
+}
+.contact{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.contact a {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.contact a:hover {
+    text-decoration: underline;
 }
