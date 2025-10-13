@@ -16,5 +16,8 @@ p{
 img{
     height: 200px; 
     width: 150px;
-    align-items: center;
+    
+}
+h3{
+    text-align: center;
 }
