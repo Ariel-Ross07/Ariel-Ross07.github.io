@@ -19,4 +19,10 @@ p{
 img{
     height: 450px;
     width: 300px;
+    border-width:10px;
+    border-color: green;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
 }
