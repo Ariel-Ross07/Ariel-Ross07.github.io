@@ -51,7 +51,7 @@ a{
 }
 
 .about p{
-    width: 50%;
+    margin: 50px;
     text-align: center;
     line-height: 125%
 }
