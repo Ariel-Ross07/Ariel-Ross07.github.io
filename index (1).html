@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Name — Software Engineer</title>
+<meta name="description" content="Portfolio of Your Name, software engineer. Full-stack projects, about, and contact.">
+
+<!-- EDIT ME: swap in your name, title, and a short one-line pitch throughout this file. -->
+
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header id="site-header">
+  <nav>
+    <a class="nav-name" href="#top">Your Name</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="resume.pdf">Résumé</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+
+  <div class="wrap">
+    <section class="hero" style="border-top:none; padding-bottom:88px;">
+      <div>
+        <p class="hero-eyebrow">Software Engineer · Full-Stack</p>
+        <h1>Hi, I'm Your Name.<br>I build things for the web.</h1>
+        <p>
+          I'm a CS student who likes taking a project from a blank repo to something
+          people can actually click on. Currently looking for internships where I can
+          learn fast and ship real features — not just tickets that never see production.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View my projects</a>
+          <a class="btn btn-ghost" href="resume.pdf">Download résumé</a>
+        </div>
+      </div>
+      <div class="hero-mark" aria-hidden="true">
+        <span>currently building</span>
+      </div>
+    </section>
+  </div>
+
+  <div class="wrap">
+    <section id="about" class="about">
+      <div class="about-text">
+        <h2 style="font-family:var(--serif); font-weight:500; font-size:2rem; margin:0 0 24px;">About</h2>
+        <p>
+          <!-- EDIT ME: replace with your real bio, 2-3 short paragraphs, written like you'd
+               actually talk to someone, not a LinkedIn summary. -->
+          I'm a Computer Science student at [Your University], graduating in [Year].
+          Most of what I know I learned by building things that were slightly too
+          ambitious for my skill level at the time — a habit I've kept.
+        </p>
+        <p>
+          I'm most interested in full-stack work: designing an API, wiring it up to a
+          database that won't fall over, and building a frontend that doesn't feel like
+          an afterthought. Outside of class projects, I've worked on [personal project
+          or club/org], where I [one concrete thing you did].
+        </p>
+      </div>
+      <div class="skills">
+        <h3>Languages</h3>
+        <ul>
+          <li>Python</li><li>JavaScript / TypeScript</li><li>Java</li><li>SQL</li>
+        </ul>
+        <h3>Tools & frameworks</h3>
+        <ul>
+          <li>React</li><li>Node.js</li><li>Git</li><li>PostgreSQL</li><li>Docker</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <div class="wrap">
+    <section id="projects">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p>A few things I've built, roughly newest first.</p>
+      </div>
+
+      <!-- EDIT ME: replace each row below with a real project. Keep the same structure. -->
+
+      <div class="project-row">
+        <div class="project-year">2025</div>
+        <div>
+          <h3 class="project-title"><a href="#">TaskFlow — collaborative task manager</a></h3>
+          <p class="project-desc">
+            A full-stack task manager with real-time updates across users, built to learn
+            WebSockets properly instead of faking it with polling.
+          </p>
+          <div class="project-tags">
+            <span>React</span><span>Node.js</span><span>PostgreSQL</span><span>WebSockets</span>
+          </div>
+        </div>
+        <div class="project-links">
+          <a href="#">Live demo</a>
+          <a href="#">Source code</a>
+        </div>
+      </div>
+
+      <div class="project-row">
+        <div class="project-year">2024</div>
+        <div>
+          <h3 class="project-title"><a href="#">Shelfie — book tracking app</a></h3>
+          <p class="project-desc">
+            A small app for tracking what I'm reading, with a recommendation feature
+            built on a basic collaborative-filtering model.
+          </p>
+          <div class="project-tags">
+            <span>Python</span><span>Flask</span><span>SQLite</span><span>scikit-learn</span>
+          </div>
+        </div>
+        <div class="project-links">
+          <a href="#">Live demo</a>
+          <a href="#">Source code</a>
+        </div>
+      </div>
+
+      <div class="project-row">
+        <div class="project-year">2024</div>
+        <div>
+          <h3 class="project-title"><a href="#">Campus Eats — dining hall menu aggregator</a></h3>
+          <p class="project-desc">
+            Scrapes and normalizes my university's dining hall menus into one page,
+            because the official site took four clicks to check one thing.
+          </p>
+          <div class="project-tags">
+            <span>JavaScript</span><span>Express</span><span>Cron jobs</span>
+          </div>
+        </div>
+        <div class="project-links">
+          <a href="#">Live demo</a>
+          <a href="#">Source code</a>
+        </div>
+      </div>
+
+    </section>
+  </div>
+
+  <div class="wrap">
+    <section id="contact" class="contact">
+      <div>
+        <h2>Let's talk.</h2>
+        <p>Open to internships and new-grad roles. Fastest way to reach me is email.</p>
+      </div>
+      <div class="contact-links">
+        <a class="btn btn-primary" href="mailto:your.email@example.com">your.email@example.com</a>
+        <a class="btn btn-ghost" href="https://github.com/yourusername">GitHub</a>
+        <a class="btn btn-ghost" href="https://linkedin.com/in/yourusername">LinkedIn</a>
+      </div>
+    </section>
+  </div>
+
+</main>
+
+<footer>
+  © 2026 Your Name.
+</footer>
+
+<script>
+  const header = document.getElementById('site-header');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 24);
+  }, { passive: true });
+</script>
+
+</body>
+</html>
